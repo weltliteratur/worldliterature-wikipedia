@@ -13,21 +13,30 @@ authors:
     orcid: 'https://orcid.org/0000-0003-3271-9653'
     affiliation: Humboldt-Universität zu Berlin
     email: robert.jaeschke@hu-berlin.de
+  - given-names: Christoph
+    family-names: Hube
+  - given-names: Frank
+    family-names: Fischer
+    orcid: 'https://orcid.org/0000-0003-2419-6629'
+    affiliation: Freie Universität Berlin
 repository-code: >-
   https://github.com/weltliteratur/worldliterature-wikipedia/tree/master
 abstract: >-
-  This directory contains the following datasets:
+  This repository contains datasets for the paper Hube, C., Fischer,
+  F., Jäschke, R., Lauer, G., Rosendahl Thomsen, M.: World Literature
+  According to Wikipedia: Introduction to a DBpedia-Based Framework,
+  2017. https://arxiv.org/abs/1701.00991
 
-
+  Specifically, the datasets are:
   - writers_per_approach: the writers that were identified
-  by each approach in the English Wikipedia (data from the
-  2014 DBpedia download)
+    by each approach in the English Wikipedia (data from the
+    2014 DBpedia download)
 
   - writers_per_language: the assignment of languages to
-  writers
+    writers
 
   - nobel_laureates_in_literature.tsv: a list of Nobel
-  laureates in literature, extracted from Wikipedia
+    laureates in literature, extracted from Wikipedia
 license: CC-BY-4.0
 commit: 8ebf5bd2e8cdd43723872cd3597ae3f96cdd0061
 date-released: '2015-12-23'
